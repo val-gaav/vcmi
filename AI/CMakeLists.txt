@@ -41,6 +41,7 @@ endif()
 #######################################
 
 add_subdirectory(BattleAI)
+add_subdirectory(BattleML)
 add_subdirectory(StupidAI)
 add_subdirectory(EmptyAI)
 add_subdirectory(VCAI)
