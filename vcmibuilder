@@ -178,6 +178,7 @@ mkdir -p "$temp_dir"
 if [[ -n "$gog_file" ]]
 then
 	data_dir="$temp_dir"/app
+	mkdir -p "$data_dir"
 
 	# innoextract always reports error (iconv 84 error). Just test file for presence
 	test -f "$gog_file" || fail "Error: gog.com executable was not found!"
